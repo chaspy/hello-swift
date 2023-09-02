@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack {
             Text("Hi, Swift!")
                 .font(.largeTitle)
-            Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
+            Button("切り替えボタン") {
                 /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
             }
         }
