@@ -13,8 +13,10 @@ struct ContentView: View {
             Text("Hi, Swift!")
                 .font(.largeTitle)
             Button("切り替えボタン") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                
             }
+            .background(Color.blue)
+            .foregroundColor(.white)
         }
     }
 }
