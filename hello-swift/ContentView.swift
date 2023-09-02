@@ -15,6 +15,7 @@ struct ContentView: View {
             Button("切り替えボタン") {
                 
             }
+            .padding(.all)
             .background(Color.blue)
             .foregroundColor(.white)
         }
